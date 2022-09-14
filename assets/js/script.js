@@ -4,13 +4,17 @@ document.addEventListener("DOMContentLoaded", function(){
     for(let button of buttons){
         button.addEventListener("click", function(){
             if(this.getAttribute("data-type") == 'submit'){
-                
+
             }
         });
     }
 });
+/** 
+ * The main game (loop), called after script load and after user answers processed.
+ *  */
 function runGame(){
-
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 function checkAnswer(){
     
